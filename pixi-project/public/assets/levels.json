@@ -1,0 +1,23 @@
+[
+  {
+    "background": "/assets/background.jpg",
+    "time": 60,
+    "boosterTime": 10,
+    "enemyCount": 4,
+    "enemySpeed": 3
+  },
+  {
+    "background": "/assets/background.jpg",
+    "time": 50,
+    "boosterTime": 10,
+    "enemyCount": 7,
+    "enemySpeed": 6
+  },
+  {
+    "background": "/assets/background.jpg",
+    "time": 45,
+    "boosterTime": 10,
+    "enemyCount": 12,
+    "enemySpeed": 9
+  }
+]
