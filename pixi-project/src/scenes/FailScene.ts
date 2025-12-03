@@ -6,7 +6,7 @@ export class FailScene extends Scene {
 
   constructor(onRetry: () => void) {
     super();
-    this.onRetry = onRetry; // коллбек для кнопки "Replay"
+    this.onRetry = onRetry;
   }
 
   onEnter() {
@@ -44,13 +44,13 @@ export class FailScene extends Scene {
 
     // Обработка клика
     replayBtn.on("pointerdown", () => {
-      this.onRetry(); // вызывает коллбек из main.ts
+      this.onRetry();
     });
 
     this.addChild(replayBtn);
   }
 
   onExit() {
-    this.removeChildren(); // чистим сцену
+    this.removeChildren();
   }
 }

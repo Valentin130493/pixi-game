@@ -50,7 +50,7 @@ export class FinalScene extends Scene {
   update(delta?: number) {
     if (!delta) return;
     this.elapsed += delta / 60;
-    const scale = 1 + Math.sin(this.elapsed * 2) * 0.05; // пульсация кнопки
+    const scale = 1 + Math.sin(this.elapsed * 2) * 0.05;
     this.button.scale.set(scale);
     this.btnLabel.scale.set(scale);
   }
